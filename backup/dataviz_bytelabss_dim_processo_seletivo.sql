@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 8.0.38, for Win64 (x86_64)
+-- MySQL dump 10.13  Distrib 8.0.36, for Win64 (x86_64)
 --
 -- Host: localhost    Database: dataviz_bytelabss
 -- ------------------------------------------------------
--- Server version	8.0.39
+-- Server version	8.0.37
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -40,7 +40,7 @@ CREATE TABLE `dim_processo_seletivo` (
 
 LOCK TABLES `dim_processo_seletivo` WRITE;
 /*!40000 ALTER TABLE `dim_processo_seletivo` DISABLE KEYS */;
-INSERT INTO `dim_processo_seletivo` VALUES (1,'Processo seletivo 1','concluido','descri��o do processo seletivo 1','antonio','2023-12-01 00:00:00','2024-01-30 00:00:00'),(2,'Processo seletivo 2','Em andamento','descri��o do processo seletivo 2','Rodrigo','2024-01-01 00:00:00','2024-01-05 00:00:00'),(3,'Processo seletivo 3','Concluido','descri��o do processo seletivo 3','Amanda','2024-01-01 00:00:00','2024-04-05 00:00:00');
+INSERT INTO `dim_processo_seletivo` VALUES (1,'Processo seletivo 1','Concluído','Descrição do processo seletivo 1','Antonio','2023-12-01 00:00:00','2024-01-30 00:00:00'),(2,'Processo seletivo 2','Em andamento','Descrição do processo seletivo 2','Rodrigo','2024-01-01 00:00:00','2024-01-05 00:00:00'),(3,'Processo seletivo 3','Concluído','Descrição do processo seletivo 3','Amanda','2024-01-01 00:00:00','2024-04-05 00:00:00');
 /*!40000 ALTER TABLE `dim_processo_seletivo` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -53,4 +53,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2024-10-14 21:39:29
+-- Dump completed on 2024-10-24 20:19:39

@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 8.0.38, for Win64 (x86_64)
+-- MySQL dump 10.13  Distrib 8.0.36, for Win64 (x86_64)
 --
 -- Host: localhost    Database: dataviz_bytelabss
 -- ------------------------------------------------------
--- Server version	8.0.39
+-- Server version	8.0.37
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -39,7 +39,7 @@ CREATE TABLE `dim_vaga` (
 
 LOCK TABLES `dim_vaga` WRITE;
 /*!40000 ALTER TABLE `dim_vaga` DISABLE KEYS */;
-INSERT INTO `dim_vaga` VALUES (1,'Desenvolvedor Jr',7,'Java','Concluido','2023-12-01 00:00:00'),(2,'Desenvolvedor Pleno',13,'Java','Concluido','2023-12-01 00:00:00'),(3,'Dev Jr',22,'Python','Concluido','2024-01-01 00:00:00'),(4,'Dev Pleno',10,'Python','Concluido','2024-01-01 00:00:00'),(5,'Dev Senior',16,'Python','Concluido','2024-01-01 00:00:00'),(6,'Estagiario',22,'Python','Concluido','2024-01-01 00:00:00');
+INSERT INTO `dim_vaga` VALUES (1,'Desenvolvedor Jr',7,'Java','Concluído','2023-12-01 00:00:00'),(2,'Desenvolvedor Pleno',13,'Java','Concluído','2023-12-01 00:00:00'),(3,'Dev Jr',22,'Python','Concluído','2024-01-01 00:00:00'),(4,'Dev Pleno',10,'Python','Concluído','2024-01-01 00:00:00'),(5,'Dev Senior',16,'Python','Concluído','2024-01-01 00:00:00'),(6,'Estagiário',22,'Python','Concluído','2024-01-01 00:00:00');
 /*!40000 ALTER TABLE `dim_vaga` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -52,4 +52,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2024-10-14 21:39:25
+-- Dump completed on 2024-10-24 20:19:42

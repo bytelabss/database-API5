@@ -27,7 +27,7 @@ CREATE TABLE `pdf_report_logs` (
   `report_date` date NOT NULL,
   `generated_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -36,6 +36,7 @@ CREATE TABLE `pdf_report_logs` (
 
 LOCK TABLES `pdf_report_logs` WRITE;
 /*!40000 ALTER TABLE `pdf_report_logs` DISABLE KEYS */;
+INSERT INTO `pdf_report_logs` VALUES (1,'2024-10-24','2024-10-24 23:15:16');
 /*!40000 ALTER TABLE `pdf_report_logs` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -48,4 +49,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2024-10-17 20:29:10
+-- Dump completed on 2024-10-24 20:19:41
