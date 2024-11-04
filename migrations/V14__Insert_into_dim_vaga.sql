@@ -1,0 +1,2 @@
+USE `dataviz_bytelabss`;
+INSERT INTO `dim_vaga` VALUES (1,'Desenvolvedor Jr',7,'Java','Concluído','2023-12-01 00:00:00'),(2,'Desenvolvedor Pleno',13,'Java','Concluído','2023-12-01 00:00:00'),(3,'Dev Jr',22,'Python','Concluído','2024-01-01 00:00:00'),(4,'Dev Pleno',10,'Python','Concluído','2024-01-01 00:00:00'),(5,'Dev Senior',16,'Python','Concluído','2024-01-01 00:00:00'),(6,'Estagiário',22,'Python','Concluído','2024-01-01 00:00:00');
