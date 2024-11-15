@@ -1,4 +1,3 @@
-USE dataviz_bytelabss;
 DROP TABLE IF EXISTS `fato_avaliacoes`;
 CREATE TABLE `fato_avaliacoes` (
   `pontuacao` bigint DEFAULT NULL,

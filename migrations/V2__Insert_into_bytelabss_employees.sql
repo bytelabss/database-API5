@@ -1,4 +1,3 @@
-USE `dataviz_bytelabss`;
 INSERT INTO `bytelabss_employees` VALUES 
 	(6,'antonio','zago',1500,'backend','2024-08-07',1231,'BACKEND',21.1),
     (7,'alec','rondel',1500,'frontend','2024-08-07',1800,'FRONTEND',21.1),

@@ -1,2 +1,1 @@
-USE `dataviz_bytelabss`;
 INSERT INTO `dim_processo_seletivo` VALUES (1,'Processo seletivo 1','Concluído','Descrição do processo seletivo 1','Antonio','2023-12-01 00:00:00','2024-01-30 00:00:00'),(2,'Processo seletivo 2','Em andamento','Descrição do processo seletivo 2','Rodrigo','2024-01-01 00:00:00','2024-01-05 00:00:00'),(3,'Processo seletivo 3','Concluído','Descrição do processo seletivo 3','Amanda','2024-01-01 00:00:00','2024-04-05 00:00:00');

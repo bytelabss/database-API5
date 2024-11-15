@@ -1,4 +1,3 @@
-USE dataviz_bytelabss;
 DROP TABLE IF EXISTS `custom_queries`;
 CREATE TABLE `custom_queries` (
   `id` bigint NOT NULL AUTO_INCREMENT,

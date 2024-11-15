@@ -1,4 +1,3 @@
-USE dataviz_bytelabss;
 DROP TABLE IF EXISTS `dim_participante_rh`;
 CREATE TABLE `dim_participante_rh` (
   `id_participante_rh` bigint NOT NULL AUTO_INCREMENT,

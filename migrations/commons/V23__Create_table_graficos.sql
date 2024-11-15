@@ -1,4 +1,3 @@
-USE `dataviz_bytelabss`;
 CREATE TABLE `graficos` (
   `id` bigint NOT NULL,
   `ignore_until` datetime DEFAULT NULL,

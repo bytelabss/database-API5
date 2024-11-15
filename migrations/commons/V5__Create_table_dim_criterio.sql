@@ -1,4 +1,3 @@
-USE dataviz_bytelabss;
 DROP TABLE IF EXISTS `dim_criterio`;
 CREATE TABLE `dim_criterio` (
   `id_criterio` bigint NOT NULL,
