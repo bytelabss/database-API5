@@ -1,4 +1,3 @@
-USE dataviz_bytelabss;
 DROP TABLE IF EXISTS `pdf_report_logs`;
 CREATE TABLE `pdf_report_logs` (
   `id` int NOT NULL AUTO_INCREMENT,

@@ -1,4 +1,3 @@
-USE dataviz_bytelabss;
 DROP TABLE IF EXISTS `dim_processo_seletivo`;
 CREATE TABLE `dim_processo_seletivo` (
   `id_processo_seletivo` bigint NOT NULL AUTO_INCREMENT,

@@ -1,4 +1,3 @@
-USE dataviz_bytelabss;
 DROP TABLE IF EXISTS `bytelabss_employees`;
 CREATE TABLE `bytelabss_employees` (
   `employee_id` bigint NOT NULL AUTO_INCREMENT,

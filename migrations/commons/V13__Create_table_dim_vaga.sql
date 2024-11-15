@@ -1,4 +1,3 @@
-USE dataviz_bytelabss;
 DROP TABLE IF EXISTS `dim_vaga`;
 CREATE TABLE `dim_vaga` (
   `id_vaga` bigint NOT NULL AUTO_INCREMENT,

@@ -1,4 +1,3 @@
-USE dataviz_bytelabss;
 DROP TABLE IF EXISTS `dim_tempo`;
 CREATE TABLE `dim_tempo` (
   `id_tempo` bigint NOT NULL AUTO_INCREMENT,

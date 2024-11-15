@@ -1,4 +1,3 @@
-USE dataviz_bytelabss;
 DROP TABLE IF EXISTS `fato_contratacoes`;
 CREATE TABLE `fato_contratacoes` (
   `quantidade` int DEFAULT NULL,
