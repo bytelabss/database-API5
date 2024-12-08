@@ -1,5 +1,3 @@
-USE `dataviz_bytelabss`;
-
 CREATE TABLE `usuarios_custom_query` (
   `id` bigint NOT NULL AUTO_INCREMENT,
   `usuario` bigint DEFAULT NULL,
